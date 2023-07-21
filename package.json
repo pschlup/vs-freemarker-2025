@@ -6,7 +6,7 @@
     "publisher": "affiahmedkhan",
     "repository": {
         "type": "git",
-        "url": "https://github.com/affiahmedkhan/vs-freemarker-new.git"
+        "url": "https://github.com/affiahmedkhan/vs-freemarker-2023.git"
     },
     "engines": {
         "vscode": "^0.10.1"
@@ -75,9 +75,9 @@
         ]
     },
     "bugs": {
-        "url": "https://github.com/dcortes92/vs-freemarker/issues"
+        "url": "https://github.com/affiahmedkhan/vs-freemarker-2023/issues"
     },
-    "homepage": "https://github.com/dcortes92/vs-freemarker#readme",
+    "homepage": "https://github.com/affiahmedkhan/vs-freemarker-2023#readme",
     "dependencies": {},
     "devDependencies": {},
     "scripts": {
@@ -91,7 +91,7 @@
         "freemarker",
         "ftl"
     ],
-    "author": "Daniel Cortes <dcortes1892@gmail.com> (http://dcortes92.github.io/)",
+    "author": "Aftab Ahmed (https://github.com/affiahmedkhan)",
     "license": "MIT",
-    "icon": "images/logo.svg"
+    "icon": "images/logo.png"
 }
