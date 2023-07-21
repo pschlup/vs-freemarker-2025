@@ -2,7 +2,7 @@
     "name": "FreeMarker2023",
     "displayName": "Free Marker 2023",
     "description": "Syntax highlight for FreeMarker",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "affiahmedkhan",
     "repository": {
         "type": "git",
