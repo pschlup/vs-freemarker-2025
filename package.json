@@ -2,7 +2,7 @@
     "name": "FreeMarker2023",
     "displayName": "Free Marker 2023",
     "description": "Syntax highlight for FreeMarker",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "affiahmedkhan",
     "repository": {
         "type": "git",
@@ -37,6 +37,16 @@
                     ".ftl.html"
                 ],
                 "configuration": "./ftl.configuration.json"
+            },
+            {
+                "id": "html",
+                "aliases": [
+                    "HTML",
+                    ".html"
+                ],
+                "extensions": [
+                    ".html"
+                ]
             }
         ],
         "grammars": [
