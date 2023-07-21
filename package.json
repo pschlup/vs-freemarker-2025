@@ -1,0 +1,97 @@
+{
+    "name": "FreeMarker2023",
+    "displayName": "Free Marker 2023",
+    "description": "Syntax highlight for FreeMarker",
+    "version": "0.0.10",
+    "publisher": "affiahmedkhan",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/affiahmedkhan/vs-freemarker-new.git"
+    },
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ftl",
+                "aliases": [
+                    "FreeMarker",
+                    "ftl"
+                ],
+                "extensions": [
+                    ".ftl"
+                ],
+                "configuration": "./ftl.configuration.json"
+            },
+            {
+                "id": "ftl.html",
+                "aliases": [
+                    "FreeMarkerHtml",
+                    "ftl.html"
+                ],
+                "extensions": [
+                    ".ftl.html"
+                ],
+                "configuration": "./ftl.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ftl",
+                "scopeName": "text.html.ftl",
+                "path": "./syntaxes/ftl.tmLanguage"
+            },
+            {
+                "language": "ftl.html",
+                "scopeName": "text.ftl.html",
+                "path": "./syntaxes/ftl.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "ftl",
+                "path": "./snippets/ftl.json"
+            },
+            {
+                "language": "ftl",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "ftl.html",
+                "path": "./snippets/ftl.html.json"
+            },
+            {
+                "language": "ftl.html",
+                "path": "./snippets/html.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/ftl.html.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/dcortes92/vs-freemarker/issues"
+    },
+    "homepage": "https://github.com/dcortes92/vs-freemarker#readme",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "visual",
+        "studio",
+        "code",
+        "vs",
+        "freemarker",
+        "ftl"
+    ],
+    "author": "Daniel Cortes <dcortes1892@gmail.com> (http://dcortes92.github.io/)",
+    "license": "MIT",
+    "icon": "images/logo.svg"
+}
