@@ -1,4 +1,4 @@
-# FreeMarker New for Visual Studio Code 
+# Free Marker 2023 for Visual Studio Code 
 FreeMarker language colorization extension for Visual Studio Code. You can read more about FreeMarker [here](http://freemarker.incubator.apache.org/).
 
 ## Usage
