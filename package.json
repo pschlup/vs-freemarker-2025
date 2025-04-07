@@ -1,12 +1,12 @@
 {
-    "name": "FreeMarker2023",
-    "displayName": "Free Marker 2023",
+    "name": "FreeMarker2025",
+    "displayName": "Free Marker 2025",
     "description": "Syntax highlight for FreeMarker",
-    "version": "0.0.5",
-    "publisher": "affiahmedkhan",
+    "version": "0.0.6",
+    "publisher": "pschlup",
     "repository": {
         "type": "git",
-        "url": "https://github.com/affiahmedkhan/vs-freemarker-2023.git"
+        "url": "https://github.com/pschlup/vs-freemarker-2025.git"
     },
     "engines": {
         "vscode": "^0.10.1"
@@ -71,9 +71,9 @@
         ]
     },
     "bugs": {
-        "url": "https://github.com/affiahmedkhan/vs-freemarker-2023/issues"
+        "url": "https://github.com/pschlup/vs-freemarker-2025/issues"
     },
-    "homepage": "https://github.com/affiahmedkhan/vs-freemarker-2023#readme",
+    "homepage": "https://github.com/pschlup/vs-freemarker-2025#readme",
     "dependencies": {},
     "devDependencies": {},
     "scripts": {
@@ -87,7 +87,7 @@
         "freemarker",
         "ftl"
     ],
-    "author": "Aftab Ahmed (https://github.com/affiahmedkhan)",
+    "author": "Paulo Schlup (https://github.com/pschlup)",
     "license": "MIT",
     "icon": "images/logo.png"
 }
